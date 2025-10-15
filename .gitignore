@@ -1,0 +1,33 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+
+# Binaries
+bin/
+api_gateway
+load_balancer
+server
+worker
+
+# Function storage
+functions/*/
+
+# Sockets
+*.sock
+/tmp/faas_*.sock
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

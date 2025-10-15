@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini FaaS - Hello World</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            text-align: center;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .feature {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .feature h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Mini FaaS</h1>
+        <p>Plateforme Serverless en C</p>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>⚡ Rapide</h3>
+                <p>Pre-fork workers pour latence minimale</p>
+            </div>
+            <div class="feature">
+                <h3>🔒 Sécurisé</h3>
+                <p>Isolation processus + WASM sandbox</p>
+            </div>
+            <div class="feature">
+                <h3>🌐 Multi-langages</h3>
+                <p>C, Rust, Go, JS, Python, PHP, HTML</p>
+            </div>
+            <div class="feature">
+                <h3>📊 Load Balancing</h3>
+                <p>Round Robin & FIFO</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
